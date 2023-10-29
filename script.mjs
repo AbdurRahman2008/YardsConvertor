@@ -4,13 +4,7 @@ function doConvert(event)   {
     event.preventDefault();
 
     let myNumber = document.querySelector("#myNumber").value.trim();
-
-    if (myNumber === "") {
-        alert("Please enter a value in the input field.");
-        return; // Exit the function if the input is empty.
-    }
     
-
     console.log(myNumber);
     
 
